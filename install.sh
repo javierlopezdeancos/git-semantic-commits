@@ -57,7 +57,7 @@ if [[ -n $1 ]] && [[ $1 == '--scripts' ]]; then
 else
   echo 'Installing git aliases…'
 
-  semantic_aliases=( 'chore' 'docs' 'feat' 'fix' 'localize' 'chore' 'refactor' 'style' 'test' )
+  semantic_aliases=( 'chore' 'docs' 'feat' 'fix' 'localize' 'chore' 'refactor' 'style' 'test' 'build' 'ci' 'perf' )
 
   for semantic_alias in "${semantic_aliases[@]}"; do
     register_git_alias $semantic_alias
