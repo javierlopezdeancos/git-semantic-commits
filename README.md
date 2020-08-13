@@ -21,6 +21,16 @@ These are **very simple** custom git commands that enforce the git user to write
 
 ## Usage
 
+* **build** - Development changes related to the build system.
+* **ci** - Development changes related to the continuous integration and deployment system.
+* **docs** - Documentation changes related to the project.
+* **feat** - Production changes related to new backward-compatible abilities or functionality.
+* **fix** - Production changes related to backward-compatible bug fixes.
+* **perf** - Production changes related to backward-compatible performance improvements.
+* **refactor** - Development changes related to modifying the codebase.
+* **style** - Development changes related to styling the codebase.
+* **test** - Development changes related to tests.
+
 There are 11 new Git commands now.
 
 New command -> what it does:
